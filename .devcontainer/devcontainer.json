@@ -7,9 +7,10 @@
   ],
   "postStartCommand": "pip install --upgrade pip && pip install pipenv && pipenv install --dev",
   "extensions": [
-    "ms-python.python",
-    "ms-python.black-formatter",
-    "ms-python.isort",
-    "eriklynd.json-tools"
-  ]
+	"ms-python.python",
+	"ms-python.black-formatter",
+	"ms-python.isort",
+	"eriklynd.json-tools",
+	"eamodio.gitlens"
+]
 }
