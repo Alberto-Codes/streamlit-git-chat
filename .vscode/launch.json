@@ -5,10 +5,8 @@
             "name": "Streamlit",
             "type": "python",
             "request": "launch",
-            "module": "pipenv",
+            "module": "streamlit",
             "args": [
-                "run",
-                "streamlit",
                 "run",
                 "src/app.py",
                 "--server.enableCORS",
